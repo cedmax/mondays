@@ -1,25 +1,26 @@
 var nextDay = require('next-day');
 var prevDay = require('prev-day');
+var MONDAY = 1;
 
 module.exports = {
   isMonday: function(date) {
-    var date = date || new Date;
-    return date.getDay() === 1;
+    date = date || new Date;
+    return date.getDay() === MONDAY;
   },
   getNextMonday: function(date) {
     date = date || new Date;
-    return nextDay(date, 1).date;
+    return nextDay(date, MONDAY).date;
   },
   getPrevMonday: function(date) {
     date = date || new Date;
-    return prevDay(date, 1).date;
+    return prevDay(date, MONDAY).date;
   },
   daysUntilMonday: function(date) {
     date = date || new Date;
-    return nextDay(date, 1).dayLeft;
+    return nextDay(date, MONDAY).dayLeft;
   },
   daysSinceMonday: function(date) {
     date = date || new Date;
-    return prevDay(date, 1).daySince;
+    return prevDay(date, MONDAY).daySince;
   },
 }
