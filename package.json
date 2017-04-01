@@ -4,8 +4,8 @@
   "description": "A utility library to cope with Mondays",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch && codeconv"
+    "test": "jest && codecov",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
