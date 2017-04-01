@@ -1,6 +1,6 @@
 # Mondays
 
-Mondays is a library to cope with Mondays.
+Mondays is a utility library to cope with Mondays.  
 Mondays could be hard, this library should ease your way with them.
 
 ## Getting started
