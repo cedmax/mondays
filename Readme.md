@@ -1,6 +1,14 @@
-# Mondays [![Build Status](https://travis-ci.org/cedmax/prev-day.svg?branch=master)](https://travis-ci.org/cedmax/prev-day)
+# Mondays
+
 Mondays is a utility library to cope with Mondays.  
 Mondays could be hard, this library should ease your way with them.
+
+
+[![Build Status](https://travis-ci.org/cedmax/mondays.svg?branch=master)](https://travis-ci.org/cedmax/mondays)
+[![npm version](https://badge.fury.io/js/mondays.svg)](https://badge.fury.io/js/mondays)
+[![Dependency status](https://david-dm.org/cedmax/mondays.svg)](https://david-dm.org)
+[![codecov](https://codecov.io/gh/cedmax/mondays/branch/master/graph/badge.svg)](https://codecov.io/gh/cedmax/mondays)
+
 
 ## Getting started
 
