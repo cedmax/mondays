@@ -1,5 +1,4 @@
-# Mondays
-
+# Mondays [![Build Status](https://travis-ci.org/cedmax/prev-day.svg?branch=master)](https://travis-ci.org/cedmax/prev-day)
 Mondays is a utility library to cope with Mondays.  
 Mondays could be hard, this library should ease your way with them.
 
