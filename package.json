@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch && codeconv"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,17 @@
   "bugs": {
     "url": "https://github.com/cedmax/mondays/issues"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "homepage": "https://github.com/cedmax/mondays#readme",
   "dependencies": {
-    "jest": "^19.0.2",
     "next-day": "^1.1.0",
     "prev-day": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "codecov": "^1.0.0"
   }
 }
