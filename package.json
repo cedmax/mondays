@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/cedmax/mondays#readme",
   "dependencies": {
-    "next-day": "^1.1.0",
-    "prev-day": "^1.0.0"
+    "next-day": "1.2.0",
+    "prev-day": "1.0.1"
   },
   "devDependencies": {
-    "jest": "^19.0.2",
-    "codecov": "^1.0.0"
+    "jest": "25.1.0",
+    "codecov": "3.6.5"
   }
 }
